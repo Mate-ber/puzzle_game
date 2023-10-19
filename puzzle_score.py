@@ -16,7 +16,7 @@ class Score:
         game_over.color("black")
         game_over.hideturtle()
         game_over.goto(0, 0)
-        game_over.write(f"Game Over! You Won!", align="center", font=("Courier", 30, "normal"))
+        game_over.write(f"You Won!", align="center", font=("Courier", 30, "normal"))
 
     def score(self, score):
         self.title.clear()
